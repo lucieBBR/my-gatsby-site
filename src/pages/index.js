@@ -16,8 +16,8 @@ const IndexPage = () => {
         <h1 className={greeting}>Hi. I'm Lucie. <br/> A fullstack developer.</h1>
         <p className={aboutText}>I'm passionate about sustainability and projects with a positive social impact.</p>
         {/* <StaticImage
-          alt="Happy labrador puppy running towards me."
-          src="../images/andrew-schultz-unsplash.jpg"
+          alt="Piece of code"
+          src="../images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
         /> */}
       </div>
     </Layout>
