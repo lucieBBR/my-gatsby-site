@@ -1,20 +1,82 @@
+* {
+  margin: 0;
+}
+
 .container {
-    margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
-  }
-  
-  .heading {
-    color: rebeccapurple;
-  }
-  .nav-links {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-  }
-  .nav-link-item {
-    padding-right: 2rem;
-  }
-  .nav-link-text {
-    color: black;
-  }
+  display: flex;
+  justify-content: space-between; /* Aligns items with space between them */
+  align-items: center; /* Aligns items vertically */
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.heading {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  align-items: flex-end; /* Align links to the right */
+  margin-left: auto; /* Pushes header-links to the right */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: #ff8330; /* Example text color */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link-item {
+  padding-right: 2rem;
+}
+
+.nav-link-text {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  font-family:  "Andale Mono"
+}
+
+.nav-link-text:hover {
+  color: #fdbb2d;
+}
+
+.button {
+  background-color: #fdbb2d;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #b21f1f;
+}
+
+.arrow {
+  margin-right: 5px; /* Adjust spacing between arrow and text */
+}
