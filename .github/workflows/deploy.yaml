@@ -2,15 +2,17 @@ name: 'Deploy to Netlify'
 
 on:
   push:
-    branches:
-      - main
+    branches: ['main']
     
 
 jobs:
   deploy:
     name: 'Deploy to Netlify'
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: jsmrcaga/action-netlify-deploy@v2.0.0
+      - uses: actions/checkout@v3
+      - uses: jsmrcaga/action-netlify-deploy@master
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.MY_NETLIFY_TOKEN }}
           NETLIFY_DEPLOY_TO_PROD: true
