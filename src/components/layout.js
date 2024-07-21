@@ -6,8 +6,7 @@ import {
   navLinks,
   navLinkItem,
   navLinkText,
-  logo,
-  arrow
+  logo
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
