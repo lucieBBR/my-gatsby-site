@@ -1,49 +1,28 @@
 body {
-    background: linear-gradient(135deg, #ffffff, #6ae0c8, #ee8733);
-    margin: 0;
-    padding: 0;
+    background: linear-gradient(135deg, #ffffff, #6ae0c8, #f2a464);
     color: white;
     height: 100vh;
-  }
-  
-  h1 {
-    margin: 1rem 0;
-    font-size: 4rem;
-    font-family: "Courier New";
-    font-weight: bold;
-    color: teal;
-    margin-top: 8rem;
   }
   
   p {
     line-height: 1.6;
     margin-bottom: 1.5rem;
     margin-top: 2.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Andale Mono";
   }
 
-  .introText {
-    max-width: 70px; /* Adjust max-width as needed */
-    margin: 0 auto; /* Set top and bottom margin to 0, and left and right margin to auto */
+  .centeredText {
+    margin: 20%;
   }
 
-  .greeting {
-    font-size: 5rem;
-    font-family: "Courier New"
-  }
-
-  .aboutText {
-    font-size: 1rem;
-  }
-  
   a {
-    color: #fdbb2d;
     text-decoration: none;
-    transition: color 0.3s;
+    color: teal;
+    font-family: "Andale Mono";
+    font-size: 1.3rem;
   }
-  
-  a:hover {
-    color: #fff;
+
+  .typed-cursor {
+    display: none;
   }
-  
